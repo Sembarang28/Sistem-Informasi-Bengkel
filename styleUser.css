@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #0033ff;
+    position: fixed;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    user-select: none;
+}
+
+.brand {
+    padding: 19px 35px 18px 35px;
+    background-color: rgb(3, 0, 194);
+    font-size: 20px;
+    color: #e8e8e8;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-blw {
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    margin-top: 60px;
+    left: 0;
+    width: 228px;
+    height: 100%;
+    background: rgb(51, 51, 51);
+}
+.pelanggan {
+    font-size: 22px;
+    color: #e8e8e8;
+    align-items: center;
+    margin-left: 28px;
+    line-height: 60px;
+}
+.pelanggan i {
+    height: 25px;
+    width: 25px;
+    align-items: center;
+}
+.pelanggan a {
+    color: #e8e8e8;
+}
+.header-blw ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    color: #e8e8e8;
+    padding-left: 30px;
+}
+.header-blw ul a:hover {
+    box-sizing: border-box;
+    padding-left: 40px;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(68, 68, 68);
+}
+
+/*info*/
+.info {
+    position: relative;
+    padding-top: 75px;
+    margin-left: 240px;
+    width: 100;
+    height: 100%;
+}
+.info table {
+    border-collapse: collapse;
+    width: auto;
+    margin-top: 20px;
+}
+
+/*riwayat*/
+.riwayat {
+    position: relative;
+    padding-top: 75px;
+    margin-left: 240px;
+    width: 100;
+    height: 100%;
+}
+.riwayat table {
+    border-collapse: collapse;
+    width: auto;
+    margin-top: 20px;
+}
+
+.booking{
+    position: relative;
+    padding-top: 75px;
+    margin-left: 240px;
+    width: 100;
+    height: 100%;
+}
+.booking p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.teks {
+    width: 200px;
+    height: 25px;
+}
+.masalah {
+    position: relative;
+    width: 96%;
+    height: 180px;
+}
+.bookBtn {
+    margin-top: 18px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 25px;
+    color: #e8e8e8;
+    background-color: #0033ff;
+}
+
+th, td {
+    padding: 10px;
+}
+.upload{
+    width: 60px;
+    height: 20px;
+    background-color: yellow;
+    border: 1px solid rgb(227, 243, 1);
+    border-radius: 5px;
+}
+.hapus {
+    width: 60px;
+    height: 20px;
+    color: #e8e8e8;
+    background-color: rgb(202, 1, 1);
+    border: 1px solid rgb(227, 243, 1);
+    border-radius: 5px;
+}
+.keranjang{
+    width: 160px;
+    height: 20px;
+    background-color: yellow;
+    border: 1px solid rgb(227, 243, 1);
+    border-radius: 5px;
+}
+.tambah {
+    float: right;
+    margin-top: 82px;
+}
+.tambah a{
+    padding-left: 1000px;
+}
+
+.logout {
+    padding: 21px 25px 21px 25px;
+    text-align: center;
+    font-weight: 500;
+    color: #e8e8e8;
+}
+.logout:hover {
+    background-color: rgb(202, 1, 1);
+    color: #e8e8e8;
+    font-weight: bolder;
+    padding: 21px 25px 21px 25px;
+    text-align: center;
+}
